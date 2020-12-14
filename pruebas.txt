@@ -1,0 +1,46 @@
+%Set% var1;
+%Set% var2;
+var1="prueba de ingreso";
+var2="otra prueba";
+
+//Se imprime un separador
+%Out%("----------------");
+
+%Set% t;
+t=%True%;
+
+%Do%{
+	%Out%("----------------");
+
+}%While%(t < 0);
+
+%Set% a;
+
+%While%(a<4+c){	
+	a=a+1;
+	%Set% b;
+	b=0;
+	%While%(b<4+c){
+		b=b+1;
+		%Out%(a & " * " & b & " = " & a * b);
+	}
+	%Out%("----------------");
+}
+
+%If%(a>10){
+	%Out%("a es mayor que 10.");
+	%If%(b>11){
+		%Out%("a es mayor que 10 y b es mayor que 11.");
+		%If%(c>12){
+			%Out%("a es mayor que 10, b es mayor que 11 y c es mayor que 12.");
+		}
+	}
+}%Else%{
+	%Out%("a es menor o igual que 10.");
+}
+
+
+%For%(i = 0; i < 10 ; i++)
+{
+	%Out%("Esto es un FOR, iteración: " & i);
+}

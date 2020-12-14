@@ -1,0 +1,70 @@
+:root {
+  --color-white: #e6e6e6;
+  --color-dark: #1a1a1a;
+  --font-family: "Ubuntu Mono";
+}
+
+body {
+  background-color: #b9d9eb;
+}
+
+h1 {
+  text-align: center;
+}
+
+#codejs {
+  height: 350px;
+  width: 900px;
+  min-height: 350px;
+  max-height: 350px;
+  min-width: 900px;
+  max-width: 900px;
+  background: #272727;
+  color: var(--color-white);
+  font-family: var(--font-family);
+  margin-left: 233px;
+}
+
+.console--output,
+.console--unit {
+  padding: 1rem;
+  background: #272727;
+  width: 900px;
+  text-align: left;
+  color: var(--color-white);
+  font-family: var(--font-family);
+}
+
+.editor-wrapper h2 {
+  margin-top: 0;
+  margin-left: 233px;
+  margin-bottom: 0;
+  background: var(--color-dark);
+  width: 900px;
+  padding: 1rem 1rem;
+  color: var(--color-white);
+  font-size: 1rem;
+  font-family: var(--font-family);
+}
+.editor-wrapper h2::after {
+  content: ":";
+  position: relative;
+}
+
+pre {
+  margin: 0;
+  margin-left: 233px;
+}
+
+#run {
+  padding: 0.5rem 1rem;
+  background: --color-white;
+  width: 900px;
+  margin-bottom: 0px;
+  margin-left: 233px;
+}
+
+.flex-0 {
+  -webkit-box-flex: 0;
+  flex: 0 0 0;
+}
